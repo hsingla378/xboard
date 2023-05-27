@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ======================== Navbar ======================== */
+
+header {
+    width: 100%;
+    height: 91px;
+    padding: 0px 36px;
+}
+
+nav {
+    max-width: 1250px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    /* padding-left: 85px; */
+    gap: 1px;
+
+    background: #ffffff;
+}
+
+nav h1 {
+    width: 215px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+    color: #292b2e;
+}
+
+nav .rectangle {
+    width: 27px;
+    height: 9px;
+    margin-left: 1px;
+    background: linear-gradient(96.34deg, #e537b9 0%, #c040df 100%);
+    border-radius: 4.5px;
+}
+
+.border {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 91px;
+
+    border: 1px solid #e1e4e8;
+}
+
+/* ======================== News Feeds ======================== */
+.news {
+    width: 100%;
+    padding: 0px 25px;
+    margin-bottom: 100px;
+}
+
+.news-feeds {
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
+.news-feeds h1 {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252b42;
+}
+
+.news-feeds .news-feeds-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #858585;
+}
+
+.carousel__container a {
+    text-decoration: none;
+}
+
+.carousel__container a h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    margin-top: 12px;
+    color: #292b2e;
+}
+
+.carousel__container-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.carousel__container-author p,
+.carousel__container-author span {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 0rem;
+    color: #586069;
+}
+
+.carousel__container-author .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #586069;
+}
+
+.carousel__container .carousel__container-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 0rem;
+    margin-top: 21px;
+    color: #292b2e;
+}
+
+.carousel__container-image img {
+    transition: .3s;
+}
+
+.carousel__container-image img:hover {
+    filter: brightness(50%);
+}
